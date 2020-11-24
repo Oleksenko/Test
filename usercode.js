@@ -1,4 +1,5 @@
-var a = 77;
-var b = 11;
+module.exports = (data) => {
+    data.hello = "Hello World!";
 
-data.x = a + b; 
+    return data;
+};
